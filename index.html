@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <audio id="alertSound" src="baodong.mp3"></audio>
+        <h1>Đếm giờ</h1>
+        <input type="number" id="hours" placeholder="giờ" value="0">
+        <input type="number" name="minutes" id="minutes" placeholder="phút"
+            value="0">
+        <input type="number" name="seconds" id="seconds" placeholder="giây"
+            value="0"><br>
+        <p id="countdown">00:00:00</p>
+        <button onclick="action()">Bắt đầu đếm ngược</button>
+        <button onclick="stop()">Stop</button>
+        <script src="main.js"></script>
+    </body>
+</html>
